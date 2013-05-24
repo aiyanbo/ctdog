@@ -49,13 +49,13 @@ public class ResultAnalyserImpl implements ResultAnalyser {
         System.out.println("============ Cost Information ===========");
         System.out.println("Min: " + transactions.get(0).getCost());
         System.out.println("Max: " + transactions.get(transactions.size() - 1).getCost());
-        System.out.println("Avg: " + cost / transactions.size());
+        System.out.println("Avg: " + cost * 1.0 / transactions.size());
         if (timeoutList.size() > 0) {
             System.out.println("========== Timeout Information ==========");
             System.out.println("Size: " + timeoutList.size());
             System.out.println("Min : " + timeoutList.get(0));
             System.out.println("Max : " + timeoutList.get(timeoutList.size() - 1));
-            System.out.println("Avg : " + timeoutCost / timeoutList.size());
+            System.out.println("Avg : " + timeoutCost * 1.0 / timeoutList.size());
         }
         System.out.println("========== Running Information ==========");
         for (String key : runningMapper.keySet()) {
