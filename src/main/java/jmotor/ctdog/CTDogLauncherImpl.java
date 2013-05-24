@@ -2,6 +2,7 @@ package jmotor.ctdog;
 
 import jmotor.ctdog.analysis.ResultAnalyser;
 import jmotor.ctdog.analysis.impl.ResultAnalyserImpl;
+import jmotor.ctdog.callback.ConfigurationCallback;
 import jmotor.ctdog.core.Runner;
 import jmotor.ctdog.core.Transaction;
 import jmotor.ctdog.core.impl.ScheduledExecutorRunner;
@@ -21,11 +22,15 @@ import java.util.List;
 public class CTDogLauncherImpl implements CTDogLauncher {
     private Runner runner = new ScheduledExecutorRunner();
     private ResultAnalyser resultAnalyser = new ResultAnalyserImpl();
+    private ConfigurationCallback configurationCallback;
     private ConfigurationGenerator configurationGenerator = new ConfigurationGeneratorImpl();
 
     @Override
     public void start(String... arguments) throws Exception {
         Configuration configuration = configurationGenerator.generateConfiguration(arguments);
+        if (null != configurationCallback) {
+            configuration = configurationCallback.call(configuration);
+        }
         List<Transaction> transactions = runner.runAction(configuration);
         resultAnalyser.analysis(configuration, transactions);
     }
@@ -36,6 +41,10 @@ public class CTDogLauncherImpl implements CTDogLauncher {
 
     public void setResultAnalyser(ResultAnalyser resultAnalyser) {
         this.resultAnalyser = resultAnalyser;
+    }
+
+    public void setConfigurationCallback(ConfigurationCallback configurationCallback) {
+        this.configurationCallback = configurationCallback;
     }
 
     public void setConfigurationGenerator(ConfigurationGenerator configurationGenerator) {
