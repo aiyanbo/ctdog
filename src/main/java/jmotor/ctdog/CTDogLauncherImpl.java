@@ -29,7 +29,7 @@ public class CTDogLauncherImpl implements CTDogLauncher {
     public void start(String... arguments) throws Exception {
         Configuration configuration = configurationGenerator.generateConfiguration(arguments);
         if (null != configurationCallback) {
-            configuration = configurationCallback.call(configuration);
+            configurationCallback.setting(configuration);
         }
         List<Transaction> transactions = runner.runAction(configuration);
         resultAnalyser.analysis(configuration, transactions);

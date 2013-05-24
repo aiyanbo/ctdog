@@ -10,5 +10,5 @@ import jmotor.ctdog.meta.Configuration;
  * @author Andy Ai
  */
 public interface ConfigurationCallback {
-    Configuration call(Configuration configuration);
+    void setting(Configuration configuration);
 }
