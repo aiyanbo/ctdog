@@ -32,7 +32,7 @@ public class ConfigurationGeneratorImpl implements ConfigurationGenerator {
             } else if ("-p".equals(command)) {
                 String stringParameters = commands[++i];
                 String[] tempArray = stringParameters.split(",");
-                Map<String, String> parameters = new HashMap<String, String>(tempArray.length / 2);
+                Map<String, Object> parameters = new HashMap<String, Object>(tempArray.length / 2);
                 for (int j = 0; j < tempArray.length; j += 2) {
                     parameters.put(tempArray[j], tempArray[j + 1]);
                 }

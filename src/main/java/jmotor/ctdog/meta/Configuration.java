@@ -17,7 +17,7 @@ public class Configuration {
     private Integer timeout = 1000;
     private Integer index = 5;
     private Class<Action> action;
-    private Map<String, String> parameters;
+    private Map<String, Object> parameters;
 
     public Integer getConcurrent() {
         return concurrent;
@@ -59,11 +59,11 @@ public class Configuration {
         this.action = action;
     }
 
-    public Map<String, String> getParameters() {
+    public Map<String, Object> getParameters() {
         return parameters;
     }
 
-    public void setParameters(Map<String, String> parameters) {
+    public void setParameters(Map<String, Object> parameters) {
         this.parameters = parameters;
     }
 }

@@ -10,9 +10,9 @@ import java.util.Map;
  * @author Andy.Ai
  */
 public interface Action extends Runnable {
-    void init(Map<String, String> parameters);
+    void init(Map<String, Object> parameters);
 
-    void end(Map<String, String> parameters);
+    void end(Map<String, Object> parameters);
 
     Transaction getTransaction();
 

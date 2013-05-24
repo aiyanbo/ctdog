@@ -1,7 +1,7 @@
 package jmotor.ctdog.analysis.impl;
 
-import jmotor.ctdog.core.Transaction;
 import jmotor.ctdog.analysis.ResultAnalyser;
+import jmotor.ctdog.core.Transaction;
 import jmotor.ctdog.meta.Configuration;
 import jmotor.ctdog.utils.BasicUtils;
 
