@@ -16,7 +16,7 @@ import java.util.List;
  * Description:
  * Date: 13-5-25
  *
- * @author Ian Ai
+ * @author Andy Ai
  */
 public class CTDogLauncherImpl implements CTDogLauncher {
     private Runner runner = new ScheduledExecutorRunner();
