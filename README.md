@@ -1,6 +1,8 @@
 CTDog
 =========
 
+[![Build Status](https://travis-ci.org/aiyanbo/ctdog.png?branch=master)](https://travis-ci.org/aiyanbo/ctdog)
+
 CTDog的全称为：Concurrent Tester Dog
 
 CTDog 可以根据用户设定执行并发测试。在系统资源允许的情况下，可以在同一秒内向目标接口发任意大
