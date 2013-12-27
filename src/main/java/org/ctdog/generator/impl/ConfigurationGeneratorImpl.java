@@ -1,8 +1,8 @@
-package jmotor.ctdog.generator.impl;
+package org.ctdog.generator.impl;
 
-import jmotor.ctdog.core.Action;
-import jmotor.ctdog.generator.ConfigurationGenerator;
-import jmotor.ctdog.meta.Configuration;
+import org.ctdog.core.Action;
+import org.ctdog.generator.ConfigurationGenerator;
+import org.ctdog.meta.Configuration;
 
 import java.util.HashMap;
 import java.util.Map;

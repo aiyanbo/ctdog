@@ -1,7 +1,7 @@
-package jmotor.ctdog.analysis;
+package org.ctdog.analysis;
 
-import jmotor.ctdog.core.Transaction;
-import jmotor.ctdog.meta.Configuration;
+import org.ctdog.core.Transaction;
+import org.ctdog.meta.Configuration;
 
 import java.util.List;
 

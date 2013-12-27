@@ -1,4 +1,4 @@
-package jmotor.ctdog.utils;
+package org.ctdog.utils;
 
 import org.apache.log4j.Logger;
 

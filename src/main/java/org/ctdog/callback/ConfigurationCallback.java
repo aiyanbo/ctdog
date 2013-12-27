@@ -1,6 +1,6 @@
-package jmotor.ctdog.callback;
+package org.ctdog.callback;
 
-import jmotor.ctdog.meta.Configuration;
+import org.ctdog.meta.Configuration;
 
 /**
  * Component:

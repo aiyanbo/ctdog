@@ -1,4 +1,4 @@
-package jmotor.ctdog.core;
+package org.ctdog.core;
 
 import java.util.Map;
 

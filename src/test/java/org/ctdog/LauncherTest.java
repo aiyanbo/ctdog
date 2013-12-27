@@ -1,4 +1,4 @@
-package jmotor.ctdog;
+package org.ctdog;
 
 import junit.framework.TestCase;
 
@@ -12,7 +12,7 @@ import junit.framework.TestCase;
 public class LauncherTest extends TestCase {
     public void test() throws Exception {
         CTDogLauncher launcher = new CTDogLauncherImpl();
-        launcher.start("-a", "jmotor.ctdog.TestAction",
+        launcher.start("-a", "org.ctdog.TestAction",
                 "-c", "10",
                 "-t", "1000",
                 "-d", "1000",

@@ -1,11 +1,11 @@
-package jmotor.ctdog.core.impl;
+package org.ctdog.core.impl;
 
-import jmotor.ctdog.core.Action;
-import jmotor.ctdog.core.Runner;
-import jmotor.ctdog.core.Transaction;
-import jmotor.ctdog.meta.Configuration;
-import jmotor.ctdog.utils.BasicUtils;
 import org.apache.log4j.Logger;
+import org.ctdog.core.Action;
+import org.ctdog.core.Runner;
+import org.ctdog.core.Transaction;
+import org.ctdog.meta.Configuration;
+import org.ctdog.utils.BasicUtils;
 
 import java.util.ArrayList;
 import java.util.List;

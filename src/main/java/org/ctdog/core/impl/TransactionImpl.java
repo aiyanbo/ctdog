@@ -1,6 +1,6 @@
-package jmotor.ctdog.core.impl;
+package org.ctdog.core.impl;
 
-import jmotor.ctdog.core.Transaction;
+import org.ctdog.core.Transaction;
 
 /**
  * Component:Concurrent Tester

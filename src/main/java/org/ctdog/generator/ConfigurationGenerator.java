@@ -1,6 +1,6 @@
-package jmotor.ctdog.generator;
+package org.ctdog.generator;
 
-import jmotor.ctdog.meta.Configuration;
+import org.ctdog.meta.Configuration;
 
 /**
  * Component:Concurrent Tester

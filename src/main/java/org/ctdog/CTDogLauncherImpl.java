@@ -1,14 +1,14 @@
-package jmotor.ctdog;
+package org.ctdog;
 
-import jmotor.ctdog.analysis.ResultAnalyser;
-import jmotor.ctdog.analysis.impl.ResultAnalyserImpl;
-import jmotor.ctdog.callback.ConfigurationCallback;
-import jmotor.ctdog.core.Runner;
-import jmotor.ctdog.core.Transaction;
-import jmotor.ctdog.core.impl.ScheduledExecutorRunner;
-import jmotor.ctdog.generator.ConfigurationGenerator;
-import jmotor.ctdog.generator.impl.ConfigurationGeneratorImpl;
-import jmotor.ctdog.meta.Configuration;
+import org.ctdog.analysis.ResultAnalyser;
+import org.ctdog.analysis.impl.ResultAnalyserImpl;
+import org.ctdog.callback.ConfigurationCallback;
+import org.ctdog.core.Runner;
+import org.ctdog.core.Transaction;
+import org.ctdog.core.impl.ScheduledExecutorRunner;
+import org.ctdog.generator.ConfigurationGenerator;
+import org.ctdog.generator.impl.ConfigurationGeneratorImpl;
+import org.ctdog.meta.Configuration;
 
 import java.util.List;
 

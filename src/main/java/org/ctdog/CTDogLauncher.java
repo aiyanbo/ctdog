@@ -1,4 +1,4 @@
-package jmotor.ctdog;
+package org.ctdog;
 
 /**
  * Component:

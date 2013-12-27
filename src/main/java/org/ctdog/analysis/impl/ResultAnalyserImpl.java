@@ -1,16 +1,11 @@
-package jmotor.ctdog.analysis.impl;
+package org.ctdog.analysis.impl;
 
-import jmotor.ctdog.analysis.ResultAnalyser;
-import jmotor.ctdog.core.Transaction;
-import jmotor.ctdog.meta.Configuration;
-import jmotor.ctdog.utils.BasicUtils;
+import org.ctdog.analysis.ResultAnalyser;
+import org.ctdog.core.Transaction;
+import org.ctdog.meta.Configuration;
+import org.ctdog.utils.BasicUtils;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Map;
-import java.util.SortedMap;
+import java.util.*;
 import java.util.concurrent.ConcurrentSkipListMap;
 
 /**

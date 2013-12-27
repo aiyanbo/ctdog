@@ -1,7 +1,7 @@
-package jmotor.ctdog;
+package org.ctdog;
 
-import jmotor.ctdog.core.Action;
-import jmotor.ctdog.core.Transaction;
+import org.ctdog.core.Action;
+import org.ctdog.core.Transaction;
 
 import java.util.Map;
 

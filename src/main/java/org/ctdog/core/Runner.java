@@ -1,6 +1,6 @@
-package jmotor.ctdog.core;
+package org.ctdog.core;
 
-import jmotor.ctdog.meta.Configuration;
+import org.ctdog.meta.Configuration;
 
 import java.util.List;
 

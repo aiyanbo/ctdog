@@ -1,6 +1,6 @@
-package jmotor.ctdog.meta;
+package org.ctdog.meta;
 
-import jmotor.ctdog.core.Action;
+import org.ctdog.core.Action;
 
 import java.util.Map;
 

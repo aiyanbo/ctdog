@@ -1,4 +1,4 @@
-package jmotor.ctdog.core;
+package org.ctdog.core;
 
 /**
  * Component:Concurrent Tester
