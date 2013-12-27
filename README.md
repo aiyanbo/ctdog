@@ -15,7 +15,7 @@ CTDog 可以根据用户设定执行并发测试。在系统资源允许的情�
  - 运行参数及分析报告自定义拓展
  
 Using
--
+------
 
 ```sh
 
@@ -29,15 +29,48 @@ Using
 ```
 
 Examples
--
+--------
 
 https://github.com/aiyanbo/ctdog/tree/master/src/test/java/jmotor/ctdog
 
 Version
--
+-------
 
 0.0.1
 
 Dependencies
------------
+------------
 log4j 1.2.17
+
+Build
+------
+
+```sh
+
+git clone https://github.com/aiyanbo/ctdog.git
+
+cd ctdog
+
+mvn clean install
+
+```
+
+Maven
+------
+
+```xml
+<dependency>
+    <groupId>org.ctdog</groupId>
+    <artifactId>ctdog</artifactId>
+    <version>0.0.1</version>
+</dependency>
+```
+
+Gradle
+------
+
+```groovy
+dependencies{
+    compile 'org.ctdog:ctdog:0.0.1'
+}
+```
