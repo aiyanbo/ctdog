@@ -33,7 +33,7 @@ Using
 Examples
 --------
 
-https://github.com/aiyanbo/ctdog/tree/master/src/test/java/jmotor/ctdog
+https://github.com/aiyanbo/ctdog/blob/master/src/test/java/org/ctdog/LauncherTest.java
 
 Version
 -------
