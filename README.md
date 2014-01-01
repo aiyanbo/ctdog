@@ -44,6 +44,11 @@ Dependencies
 ------------
 log4j 1.2.17
 
+Requires
+--------
+
+- jdk1.6+
+
 Build
 ------
 
